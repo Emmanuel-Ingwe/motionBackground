@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INGWE'SBackgroundwork.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="showcase"> 
+    <header>
+        <h2 class="logo">Whatsup௹</h2>
+        <div class="toggle"></div>
+    </header>
+        <video class="vid" src="myBackground.mp4" muted loop autoplay></video>
+         
+        <div class="overlay"></div>
+      
+     <div class="text">   
+        <h2>NEVER STOP</h2>
+        <h3>EXPLORING THE WORLD</h3 >
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic odit numquam dignissimos alias quae veritatis qui aperiam debitis minus dolor, incidunt dolorem repellat aut amet consectetur distinctio explicabo nulla laudantium?</p>
+        <button><a href="#">EXPLORE</a></button>
+    </div>
+
+    <ul class="social">
+        <li><a href="#"><img src="facebook1.png" style="height: 20px; width: 20px;" alt=""></a></li>
+        <li><a href="#"><img src="instagram.png" style="height: 20px; width: 20px;" alt=""></a></li>
+        <li><a href="#"><img src="location.png" style="height: 20px; width: 20px;" alt=""></a></li>
+    </ul>
+ </section>
+
+ <div class="menu">
+     <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">NEWS</a></li>
+        <li><a href="#">DESTINATION</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACT</a></li>
+     </ul>
+ </div>
+
+ <script>
+     const menuToggle = document.querySelector('.toggle')
+     const showcase = document.querySelector('.showcase')
+
+     menuToggle.addEventListener('click', () => {
+         menuToggle.classList.toggle('active')
+         showcase.classList.toggle('active')
+     })
+ </script>
+
+    
+</body>
+</html>
